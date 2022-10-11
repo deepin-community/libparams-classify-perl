@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.81.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 23fe160a5180101b0c60d58b6348de332b8008b9 .gitignore
+SHA1 7631199ef70df2ec207adc87132825d34e7160c2 Build.PL
+SHA1 a81a83d2e34ee5e85a8cdc152962e9724f306511 Changes
+SHA1 54793f1da593406ac164e4dd2ff190f3211c0062 MANIFEST
+SHA1 240890b30827a235eba2c017c7bbcdceb31abfc2 META.json
+SHA1 4832e50df1f2b581ac97e832d15f4d6bd861e366 META.yml
+SHA1 bb0e036b5c11cb7e0e07f909776fb2b973e891cb README
+SHA1 683529801ed37ce8ac6393836a492fa94137b6f2 lib/Params/Classify.pm
+SHA1 1cc33ea6793cd87043e868f98e7812610ccac8f5 lib/Params/Classify.xs
+SHA1 497c90b7b470f8c3a4594265c4a97376000fc2aa t/blessed.t
+SHA1 7217d9cfb3ff600005ea54634f3776da43b88e4a t/blessed_pp.t
+SHA1 e05666c5b2480ce441116ff26e55fa5bb07fb741 t/check.t
+SHA1 2107a86bccaeb55e02dbc51f79cfcabc657d06de t/check_pp.t
+SHA1 071b996f6953fd005472b99a0ed867404425239a t/classify.t
+SHA1 0fef2e6f108aeb7cdcfacbbc201fa6c2e32e688d t/classify_pp.t
+SHA1 29b6f328b7b3c928d455f82d1a0708d821445554 t/error.t
+SHA1 a1db817b20659750c1acc66816815e9604286b3a t/error_pp.t
+SHA1 904d9a4f76525e2303e4b0c168c68230f223c8de t/pod_cvg.t
+SHA1 8b0ef0af30cd5064cf1b3d57c5fdbab11f8c567c t/pod_cvg_pp.t
+SHA1 65c75abdef6f01a5d1588a307f2ddfe2333dc961 t/pod_syn.t
+SHA1 8a817d64d2098a5dfa7b65ba87b38314f9b3241e t/ref.t
+SHA1 a79c42e5e482fbf0c47a40fa4d20db975854fa89 t/ref_pp.t
+SHA1 97157325ac601fe786026cdc319f958c8ea785ae t/setup_pp.pl
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAll8oU0ACgkQOV9mt2VyAVHtqQCdHuuvfO8MFk+746FRVvgqXofR
+u5QAniv1tkNWSQJ/7tbXLX0eweqzmSbS
+=ni3G
+-----END PGP SIGNATURE-----
